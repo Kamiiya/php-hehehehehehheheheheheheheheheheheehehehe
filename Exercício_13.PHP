@@ -1,11 +1,15 @@
 <?php
 
+    $nota1= 74;
+    $nota2= 87;
+    $nota3= 54;
 
-$nota1= 3; $peso1= 2;
-$nota2= 2.5; $peso2= 3;
-$nota3= 10; $peso3= 5;
-$media= (($nota1 * $peso1) + ($nota2 * $peso2) + ($nota3 * $peso3) ) / $peso1 + $peso2 + $peso3;
+    $peso1= 2;
+    $peso2= 3;
+    $peso3= 5;
 
-echo "Sua média ponderada é  " .$media;
+    $media_ponderada= (($nota1 * $peso1) + ($nota2 * $peso2) + ($nota3 * $peso3)) / ($peso1 + $peso2 + $peso3);
+
+    echo "A media final é " .$media_ponderada;
 
 ?>
