@@ -1,41 +1,26 @@
 <?php
 
-$dia=6;
+$bebida= [
 
-switch ($dia){
+    [
+        "sabor" => "cola",
+        "categoria" => "refrigerante",
+        "marca" => "coca-cola"
+    ],
 
-    case 1 :
+    [
+        "sabor" => "blueberry",
+        "categoria" => "bebida alcoólica",
+        "marca" => "askov"
+    ],
 
-        echo "Hoje é domingo";
-        break ;
+    [
+        "sabor" => "laranja",
+        "categoria" => "suco natural",
+        "marca" => "prats"
+    ]
 
-    case 2 :
-        echo "Hoje é segunda";
-        break ;
+    ];
+        echo $bebida[2]["sabor"];
 
-    case 3 :
-        echo "Hoje é terça";
-        break ;
-
-    case 4 :
-        echo "Hoje é quarta";
-        break ;
-
-    case 5 :
-        echo "Hoje é quinta";
-        break ;
-
-    case 6 :
-        echo "Hoje é sexta-feira SEXTOUUUUUUUUUU";
-        break ;
-
-    case 7 :
-        echo "Hoje é sábado";
-        break ;
-
-    default:
-        echo "para de graça fdp";       
-        
-}
-
-?>
+?> 
